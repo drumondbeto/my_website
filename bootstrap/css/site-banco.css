@@ -1,0 +1,121 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 20px 5px;
+    color: white;
+}
+
+nav a:hover{
+    background-color: rgb(176, 224, 230);
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #036564;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+label img, .atalhos img{
+    width: 40px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+nav {
+    background: rgba(16,16,16,.5);
+    width: 300px;
+    height: 100%;
+    left: -300px;
+    position: absolute;
+    transition: all .5s;
+    z-index: 1;
+}
+
+nav img {
+    width: 60px;
+}
+
+input[type="checkbox"]:checked ~ nav {
+    transform: translateX(300px);
+}
+
+ul {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+}
+
+/* li {
+    height: 50px;
+} */
+
+label {
+    padding: 15px;
+    position: absolute;
+    z-index: 2;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    color: white;
+}
+
+/* a:hover{
+    text-decoration: none;
+    color: white;
+} */
+
+.caixa {
+    border: 3px #033649;
+    border-style: outset;
+    border-radius: 32px;
+
+    background-color: #025250;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+    
+
+    height: 80px;
+}
+
+h3, h2 {
+    color: #E8DDCB;
+    text-align: center;
+}
+
+.atalhos {
+    background: #025250;
+    border-style: outset;
+    border-color: #033649;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    margin-top: 5px;
+    margin-bottom: 15px;
+    height: 70px;
+    
+}
+
+.carousel-caption h3{
+    color: whitesmoke;
+}

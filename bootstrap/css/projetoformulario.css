@@ -1,0 +1,32 @@
+body {
+    background-color: #036564;
+}
+
+form {
+    background-color: #E8DDCB;
+
+    
+    /* margin: 80px auto; */
+    /* margin-top: 80px; */
+    padding: 64px;
+
+    border-radius: 8px;
+
+    max-width: 730px;
+}
+
+label {
+    color: #036564;
+}
+
+form h1 {
+    font-size: 36px;
+    color: #036564;
+    text-align: center;
+
+}
+
+form input{
+    background-color: #CDB380;
+}
+
